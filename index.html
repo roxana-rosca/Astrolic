@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="index.css">
+	 <title>ASTROLIC</title>
+	 <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+  <section class="showcase">
+  
+    <header>
+      <h2 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;position: fixed;">ASTROLIC</a></h2>
+      <div class="toggle"></div>
+    </header>
+	
+    <video src="videoplayback1.mp4" muted loop autoplay></video>
+    
+    <div class="text">
+      <h2>Iluzie cosmică</h2> 
+      <h3>am fost înainte de-a fi.</h3>
+      <p>Mişcându-se, planetele cântă. Noi, care suntem încă de la naştere adânciţi în această muzică planetară, nu o auzim, dar dacă ea ar înceta, am şti ce e cu adevărat liniştea.</p>
+      <a href="introducere.html">Explorează!</a>
+    </div>
+  </section>
+  
+  <div class="menu">
+    <ul>
+      <li><a href="introducere.html">Introducere</a></li>
+      <li><a href="sistemulsolar.html">Sistemul Solar</a></li>
+      <li><a href="mercur.html">Mercur</a></li>
+      <li><a href="venus.html">Venus</a></li>
+      <li><a href="pamant.html">Pământ</a></li>
+      <li><a href="marte.html">Marte</a></li>
+	  <li><a href="jupiter.html">Jupiter</a></li>
+      <li><a href="saturn.html">Saturn</a></li>
+      <li><a href="uranus.html">Uranus</a></li>
+      <li><a href="neptun.html">Neptun</a></li>
+      <li><a href="pluto.html">Pluto</a></li>
+	  <li><a href="corpuri.html">Corpuri cerești</a></li>
+      <li><a href="galaxii.html">Galaxii</a></li>
+      <li><a href="stele.html">Tipuri de stele</a></li>
+	  <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+  </div>
+  
+  <!--menu transition-->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+      })
+  </script>
+  
+</body>
+
+</html>

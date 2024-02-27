@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="marte.css">
+	 <title>MARTE</title>
+	 <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+  <section class="showcase">
+  
+      <header>
+        <h2 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;position: fixed;">ASTROLIC</a></h2>
+        <div class="toggle"></div>
+      </header>
+	
+      <div class="text">
+          <div class="box1">
+            <div class="sticker">
+		        <h3>♂ MARTE ♂</h3>
+				<p>Vecinul nostru exterior din cadrul sistemului solar este Marte. Această planetă a fost botezată după zeul roman al războiului (Ares în panteonul grecesc). Prin urmare, nu este deloc surprinzător faptul că în imaginația autorilor de science-fiction, presupușii locuitori ai planetei Marte erau și ei un popor războinic, care atacă frecvent Pamântul.<br><br>Număr sateliți: 2<br>Compoziție: 95,97% dioxid de carbon, oxigen, argon, azot</p>
+			</div>		
+		  </div>
+
+		  <div class="box2">
+		    <div class="sticker">
+				<p>Dacă, într-adevăr, ar exista sau ar fi existat cândva viață pe Marte, savanții consideră ar fi fost vorba numai de forme foarte simple de bacterii sau de alte organisme unicelulare. Numeroși cercetători au convingerea că pe Planeta Roșie a existat în trecut apă, care ar putea să se mai găsească și în prezent în subsolul planetei în formă înghețată. Rezultatele măsurătorilor actuale realizate de sondele spațiale aduc argumente în acest sens. Oamenii de știință presupun, de asemenea, că pe Marte ar fi existat în perioada primordială lacuri mari sau chiar oceane și că regimul termic al planetei ar fi fost mai cald. Astfel, Planeta Roșie ar fi oferit condiții favorabile dezvoltării vieții, la fel ca și Terra.</p>
+			</div>	
+		  </div>
+		
+		  <div class="box3">
+		    <div class="sticker">
+				<p>Peisajul marțian este foarte divers. Pe lângă cratere și munți, există deșerturi întinse, calote înghețate la poli, prăpăstii adânci și vulcani foarte înalți. Craterele provin de la numeroșii meteoriți care au căzut pe suprafața planetei, însă spre deosebire de craterele de pe Venus, ele au cunoscut fenomene de eroziune. Acestea sunt cauzate de vânturile puternice, care se pot transforma în furtuni năprasnice. Vânturile ridică praful în aer, astfel încât atmosfera planetei Marte are și ea o nuanță roșiatică. Furtunile de nisip pot dura luni întregi și pot învălui complet planeta.</p>
+			</div>	
+		  </div>
+	   </div>
+   </section>
+   
+   <div class="menu" style="position: fixed;">
+    <ul>
+      <li><a href="introducere.html">Introducere</a></li>
+      <li><a href="sistemulsolar.html">Sistemul Solar</a></li>
+      <li><a href="mercur.html">Mercur</a></li>
+      <li><a href="venus.html">Venus</a></li>
+      <li><a href="pamant.html">Pământ</a></li>
+      <li><a href="marte.html">Marte</a></li>
+	  <li><a href="jupiter.html">Jupiter</a></li>
+      <li><a href="saturn.html">Saturn</a></li>
+      <li><a href="uranus.html">Uranus</a></li>
+      <li><a href="neptun.html">Neptun</a></li>
+      <li><a href="pluto.html">Pluto</a></li>
+	  <li><a href="corpuri.html">Corpuri cerești</a></li>
+      <li><a href="galaxii.html">Galaxii</a></li>
+      <li><a href="stele.html">Tipuri de stele</a></li>
+	  <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+  </div>
+  
+  <!--menu transition-->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+      })
+  </script>
+   
+</body>
+
+</html>

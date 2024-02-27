@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="galerie.css">
+	 <title>GALERIE</title>
+	 <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+     <section class="showcase">
+  
+      <header>
+        <h2 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;position: fixed;">ASTROLIC</a></h2>
+        <div class="toggle"></div>
+		
+      </header>
+	  
+	 
+
+  <div class="container">
+    
+    <div class="box">
+      
+      <div class="dream">
+        <img src="pictures/sortate/comet 2.jpg">
+        <img src="pictures/sortate/neptune 1.jpg">
+        <img src="pictures/sortate/sun 0.jpg">
+        <img src="pictures/sortate/moon 3.jpg">
+        <img src="pictures/sortate/meteor 2.jpg">
+		<img src="pictures/sortate/stars 5.jpg">
+            
+      </div>
+
+        <div class="dream">
+        <img src="pictures/sortate/jupiter3.jpg">
+        <img src="pictures/sortate/sun 4.jpg">
+        <img src="pictures/sortate/stars 4.jpg">
+        <img src="pictures/sortate/mercury 2.jpg">
+        <img src="pictures/sortate/galaxy 0.jpg">
+		<img src="pictures/sortate/mars 1.jpg">
+            
+      </div>
+
+        <div class="dream">
+        <img src="pictures/sortate/stars 3.jpg">
+        <img src="pictures/sortate/earth 0.jpg">
+        <img src="pictures/sortate/meteor 0.jpg">
+        <img src="pictures/sortate/sky 4.jpg">
+        <img src="pictures/sortate/pluto 0.jpg">
+            
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <div class="menu" style="position: fixed;">
+    <ul>
+      <li><a href="introducere.html">Introducere</a></li>
+      <li><a href="sistemulsolar.html">Sistemul Solar</a></li>
+      <li><a href="mercur.html">Mercur</a></li>
+      <li><a href="venus.html">Venus</a></li>
+      <li><a href="pamant.html">Pământ</a></li>
+      <li><a href="marte.html">Marte</a></li>
+	  <li><a href="jupiter.html">Jupiter</a></li>
+      <li><a href="saturn.html">Saturn</a></li>
+      <li><a href="uranus.html">Uranus</a></li>
+      <li><a href="neptun.html">Neptun</a></li>
+      <li><a href="pluto.html">Pluto</a></li>
+	  <li><a href="corpuri.html">Corpuri cerești</a></li>
+      <li><a href="galaxii.html">Galaxii</a></li>
+      <li><a href="stele.html">Tipuri de stele</a></li>
+	  <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+  </div>
+  
+  <!--menu transition-->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+      })
+  </script>
+
+</body>
+
+</html>

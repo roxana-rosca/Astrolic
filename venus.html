@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="venus.css">
+	 <title>VENUS</title>
+	 <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+  <section class="showcase">
+  
+      <header>
+        <h2 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;position: fixed;">ASTROLIC</a></h2>
+        <div class="toggle"></div>
+      </header>
+	
+      <div class="text">
+          <div class="box1">
+            <div class="sticker">
+		        <h3>♀ VENUS ♀</h3>
+				<p>A doua planetă a sistemului nostru solar își datorează numele zeiței iubirii, Venus. Mult timp, s-a crezut că pe planeta Venus s-ar fi putut dezvolta viață, dat fiind faptul că aceasta este în anumite privințe asemănătoare Terrei. <br><br>Temperatură: 460°C<br>Număr sateliți: 0<br>Compoziție: 96% dioxid de carbon, 3% azot, 1% heliu, neon</p>
+			</div>		
+		  </div>
+
+		  <div class="box2">
+		    <div class="sticker">
+				<p>Venus posedă și o atmosferă cu straturi groase de nori. Cu toate acestea, condițiile de pe planetă sunt ostile vieții. Sub capacul dens de nori, pe întreaga planetă se înregistrează temperaturi de peste 470 de grade Celsius. Atmosfera este extrem de densă, alcătuită în proporție de 96% din dioxid de carbon, care produce un efect de seră, prevenind disiparea căldurii. La suprafața planetei, presiunea este de 90 de ori mai mare decât pe Terra.<br><br>Planeta are nevoie de 224,7 zile pământene pentru a efectua o rotație în jurul astrului central. Pe parcursul mișcării de revoluție, Venus ajunge între Pământ și Soare. În consecință, la fel ca Luna și Mercur, Venus traversează diferite faze, de la "Venus nouă" până la "Venus plină". </p>
+			</div>	
+		  </div>
+		
+		  <div class="box3">
+		    <div class="sticker">
+				<p>Rotația planetei în jurul axei proprii este retrogradă, cu alte cuvinte, spre deosebire de celelalte planete ale sistemului solar, Venus se rotește în sensul acelor de ceasornic. În plus, mișcarea în jurul propriei axe este deosebit de lentă.<br><br>Suprafața planetei Venus nu este deloc ospitalieră. Pe Venus nu există apă în formă lichidă. Resursele de apă din trecut s-ar fi evaporat deja demult. Cea mai mare parte din suprafața venusiană prezintă câmpii ușor vălurite, cu ridicături puțin pregnante. Totodată, se pare că nu există plăci tectonice, iar temperaturile înregistrate ajung până la 500 de grade Celsius.</p>
+			</div>	
+		  </div>
+	   </div>
+   </section>
+   
+   <div class="menu" style="position: fixed;">
+    <ul>
+      <li><a href="introducere.html">Introducere</a></li>
+      <li><a href="sistemulsolar.html">Sistemul Solar</a></li>
+      <li><a href="mercur.html">Mercur</a></li>
+      <li><a href="venus.html">Venus</a></li>
+      <li><a href="pamant.html">Pământ</a></li>
+      <li><a href="marte.html">Marte</a></li>
+	  <li><a href="jupiter.html">Jupiter</a></li>
+      <li><a href="saturn.html">Saturn</a></li>
+      <li><a href="uranus.html">Uranus</a></li>
+      <li><a href="neptun.html">Neptun</a></li>
+      <li><a href="pluto.html">Pluto</a></li>
+	  <li><a href="corpuri.html">Corpuri cerești</a></li>
+      <li><a href="galaxii.html">Galaxii</a></li>
+      <li><a href="stele.html">Tipuri de stele</a></li>
+	  <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+  </div>
+  
+  <!--menu transition-->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+      })
+  </script>
+   
+</body>
+
+</html>
